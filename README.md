@@ -53,15 +53,15 @@ A bonding curve simulates the fact that when an organization is issuing its toke
 
 ## Continuous Common Good Funding (CF)
 
-Assume there is a secondary market (e.g. a Uniswap liquidity pool) of a project token minted from a bonding curve. At any given supply, price discovery happens on the secondary market. There are two possibilities. First let’s say the price on the curve is $P_c$, the price on the secondary market is $P_s$.
+Assume there is a secondary market (e.g. a Uniswap liquidity pool) of a project token minted from a bonding curve. At any given supply, price discovery happens on the secondary market. There are two possibilities. First let’s say the price on the curve is Pc, the price on the secondary market is Ps.
 
-1. $P_c >= P_s$
+1. Pc >= Ps
 
 There will be no token minted from the bonding curve, therefore no further funding to the project. Since the curve price is higher, people can buy the project tokens from secondary markets.
 
-2. ![formula](https://render.githubusercontent.com/render/math?math=P_c < P_s)
+2. Pc < Ps
 
-An arbitrage opportunity emerges. When $P_c < P_s$, it can be profitable to mint new tokens from the curve. Therefore, new tokens will be minted from the curve. The newly minted tokens will likely be sold on the secondary market for profit until a new equilibrium is reached. Although minting new supply will likely create sell pressure on the secondary market, the increase of price on a bonding curve will limit the ability to mint new tokens from the curve. The higher the curve price is, the less tokens can be minted with a fixed amount of capital.
+An arbitrage opportunity emerges. When Pc < Ps, it can be profitable to mint new tokens from the curve. Therefore, new tokens will be minted from the curve. The newly minted tokens will likely be sold on the secondary market for profit until a new equilibrium is reached. Although minting new supply will likely create sell pressure on the secondary market, the increase of price on a bonding curve will limit the ability to mint new tokens from the curve. The higher the curve price is, the less tokens can be minted with a fixed amount of capital.
 
 ![Chart3-1备份.png](https://ssimg.frontenduse.top/article/2021/08/21/6c095f3bcee018c76f2080e84edda403.png)
 
@@ -82,7 +82,7 @@ When a common good mints token from a bonding curve in a way as described above,
 
 ![Chart1-3.png](https://ssimg.frontenduse.top/article/2021/08/21/ddd6e7136dda3feb7fe35b67fbd79f14.png)
 
-Therefore, extra tokens are minted only when the community agrees that the curve market cap is undervalued, then extra supply is minted. On a curve, if supply of project tokens moves from $S_0$ to $S_1$, then the curve market cap grows from $M_1$ to $M_1 + M_2$.
+Therefore, extra tokens are minted only when the community agrees that the curve market cap is undervalued, then extra supply is minted. On a curve, if supply of project tokens moves from S0 to S1, then the curve market cap grows from M1 to M1 + M2.
 
 Here is a recap of *Continuous Funding* of a *Continuous Common Good*:
 
