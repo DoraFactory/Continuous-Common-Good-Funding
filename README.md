@@ -59,7 +59,7 @@ Assume there is a secondary market (e.g. a Uniswap liquidity pool) of a project 
 
 There will be no token minted from the bonding curve, therefore no further funding to the project. Since the curve price is higher, people can buy the project tokens from secondary markets.
 
-2. $P_c < P_s$
+2. ![formula](https://render.githubusercontent.com/render/math?math=P_c < P_s)
 
 An arbitrage opportunity emerges. When $P_c < P_s$, it can be profitable to mint new tokens from the curve. Therefore, new tokens will be minted from the curve. The newly minted tokens will likely be sold on the secondary market for profit until a new equilibrium is reached. Although minting new supply will likely create sell pressure on the secondary market, the increase of price on a bonding curve will limit the ability to mint new tokens from the curve. The higher the curve price is, the less tokens can be minted with a fixed amount of capital.
 
