@@ -29,6 +29,8 @@ New mechanisms are being proposed within the Ethereum community. Recently, the O
 
 In this article, we describe **Continuous Common Good Funding**. The scheme provides a funding mechanism for permissionless, instantaneous contribution and participation of projects that build common goods. The word “continuous” means that the token supply and price are continuous on a bonding curve.
 
+![continuouscommongoodfunding.png](https://ssimg.frontenduse.top/article/2021/08/23/3a05430259a7294fdb0a5658b173ddc0.png)
+
 Bonding curve was first proposed by Simon de la Rouviere in his original article *[Tokens 2.0: Curved Token Bonding in Curation Markets](https://medium.com/@simondlr/tokens-2-0-curved-token-bonding-in-curation-markets-1764a2e0bee5)*. Simon himself was interested in curation markets and hoped that bonding curves can be used to facilitate curation markets. The Bancor team independently used bonding curve as a model for token sales.
 
 The original design of bonding curve includes the following features:
